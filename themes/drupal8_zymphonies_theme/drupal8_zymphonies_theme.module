@@ -1,0 +1,14 @@
+/**
+ * @file
+ * Contains drupal8_zymphpnies_theme.module
+ */
+
+
+ use Drupal\Core\Routing\RouteMatchInterface;
+ /**
+
+ */
+
+  function drupal8_zymphonies_theme_page_attachments_alter(array &$attachments ){
+  	dpm($attachments);
+  } 
